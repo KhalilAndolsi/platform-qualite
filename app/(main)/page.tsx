@@ -4,8 +4,6 @@ import { Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import Image from "next/image";
-import { ArrowRight } from "lucide-react";
-import Link from "next/link";
 
 export default function Home() {
   return (
