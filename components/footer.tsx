@@ -1,0 +1,41 @@
+import Image from "next/image";
+import Link from "next/link";
+import React from "react";
+
+const Footer = () => {
+  return (
+    <footer className="px-4 py-14 mt-14 bg-neutral-300">
+      <div className="flex flex-col lg:flex-row justify-between mb-4">
+        <Image
+          src="/images/logo.png"
+          alt="image"
+          width={591}
+          height={180}
+          className="max-w-[300px]"
+        />
+        <nav>
+          <h1 className="text-xl font-medium">Les lines</h1>
+          <ul>
+            <li><Link href="/cellule-audit-qualite" className="hover:underline">Cellule Audit Qualité</Link></li>
+            <li><Link href="/systeme-documentaire" className="hover:underline">Système Documentaire</Link></li>
+            <li><Link href="/nouveautes" className="hover:underline">Nouveautés</Link></li>
+            <li><Link href="/contact" className="hover:underline">Contacts</Link></li>
+          </ul>
+        </nav>
+        <nav>
+          <h1 className="text-xl font-medium pr-14">Contact</h1>
+          <ul>
+            <li><Link href="/" className="hover:underline">Facebook</Link></li>
+            <li><Link href="/" className="hover:underline">Twitter</Link></li>
+            <li><Link href="/" className="hover:underline">Instagram</Link></li>
+            <li><Link href="/" className="hover:underline">Youtube</Link></li>
+          </ul>
+        </nav>
+      </div>
+      <hr />
+      <p className="p-4">Copyright © 2025 Plateforme Qualité</p>
+    </footer>
+  );
+};
+
+export default Footer;
