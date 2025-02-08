@@ -9,9 +9,9 @@ const NouveautesPage = () => {
         Liste des sites concernées par le label « MARHBA »
       </h1>
       <p className="mb-2">
-        La cellule d'Audit et de Qualité (CAQ) est chargée d'assurer la
-        dynamique du système qualité, d'optimiser les processus et d'améliorer
-        la qualité de l'accueil au sein des postes comptables de la DGCPR.
+        La cellule d&apos;Audit et de Qualité (CAQ) est chargée d&apos;assurer la
+        dynamique du système qualité, d&apos;optimiser les processus et d&apos;améliorer
+        la qualité de l&apos;accueil au sein des postes comptables de la DGCPR.
       </p>
       <table className="w-full">
         <thead>
@@ -47,7 +47,7 @@ const NouveautesPage = () => {
 
 const sites = [
   {
-    site: "Centre d'appel de la DGCPR",
+    site: "Centre d&apos;appel de la DGCPR",
     gouvernorat: "Tunis 1",
   },
   {

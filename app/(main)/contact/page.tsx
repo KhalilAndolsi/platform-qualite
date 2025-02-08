@@ -87,7 +87,7 @@ const constacts = [
     addresse: "36 Rue de Marseille,1002 Tunis",
   },
   {
-    title: "Centre d'appel",
+    title: "Centre d&apos;appel",
     email: "cellule.qualite@finances.gov.tn",
     phone: "71 257 301",
     addresse: "36 Rue de Marseille,1002 Tunis",

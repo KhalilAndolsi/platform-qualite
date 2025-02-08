@@ -38,7 +38,7 @@ export default function Home() {
         Bienvenue dans le plateforme Qualitée
       </h1>
       <p className="lg:text-2xl font-light text-blue-600">
-        Choisissez l'espace qui vous convient
+        Choisissez l&apos;espace qui vous convient
       </p>
       <div className="flex flex-col lg:flex-row gap-7 my-7">
         {espace.map((d, i) => (
@@ -65,7 +65,7 @@ export default function Home() {
 const espace = [
   {
     title: "Espace particulier",
-    text: "Bienvenue dans votre espace particulier ! En quelques clics : trouvez facilement les informations fiscales que vous cherchez, téléchargez les imprimés dont vous avez besoin et effectuez d'autres démarches administratives en ligne. Explorez cet espace et découvrez comment nous pouvons simplifier l'accomplissement de votre devoir fiscal.  A vous de gérer vos obligations fiscales et de bénéficier de notre accompagnement.",
+    text: "Bienvenue dans votre espace particulier ! En quelques clics : trouvez facilement les informations fiscales que vous cherchez, téléchargez les imprimés dont vous avez besoin et effectuez d&apos;autres démarches administratives en ligne. Explorez cet espace et découvrez comment nous pouvons simplifier l&apos;accomplissement de votre devoir fiscal.  A vous de gérer vos obligations fiscales et de bénéficier de notre accompagnement.",
     color: "#24388a",
   },
   {

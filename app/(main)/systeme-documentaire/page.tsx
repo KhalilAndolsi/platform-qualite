@@ -10,10 +10,10 @@ const SystemeDocumentairePage = () => {
       <p className="mb-2">
         La Direction Générale de la Comptabilité Publique et du Recouvrement
         (DGCPR), a pour missions principales le recouvrement des recettes
-        revenant à l'Etat, aux établissements publics et aux collectivités
+        revenant à l&apos;Etat, aux établissements publics et aux collectivités
         locales, le contrôle et le paiement des dépenses publiques, la tenue des
-        comptes publics ainsi que la production de l'information financière et
-        comptable relative à l'exécution des opérations budgétaires et de
+        comptes publics ainsi que la production de l&apos;information financière et
+        comptable relative à l&apos;exécution des opérations budgétaires et de
         trésorerie des structures publiques régies par le code de la
         comptabilité publique.
       </p>
@@ -25,26 +25,26 @@ const SystemeDocumentairePage = () => {
         POLITIQUE QUALITE
       </h1>
       <p className="mb-2">
-        Conscients de l'impact majeur du programme « Qualité d'accueil » sur
-        l'amélioration de l'environnement de travail, tant pour notre
+        Conscients de l&apos;impact majeur du programme « Qualité d&apos;accueil » sur
+        l&apos;amélioration de l&apos;environnement de travail, tant pour notre
         administration que pour les usagers, la Direction Générale de la
-        Comptabilité Publique et de Recouvrement s'engage à développer un
-        système d'accueil optimal au sein des recettes des finances et
+        Comptabilité Publique et de Recouvrement s&apos;engage à développer un
+        système d&apos;accueil optimal au sein des recettes des finances et
         municipales.
       </p>
       <p className="mb-2">
-        Convaincus de l'importance d'un accueil à la fois professionnel,
+        Convaincus de l&apos;importance d&apos;un accueil à la fois professionnel,
         chaleureux et confidentiel, nous avons défini une politique axée sur
         quatre priorités essentielles :
       </p>
       <ul className="pl-14 list-disc mb-2">
-        <li>Faciliter l'accès et l'orientation des usagers,</li>
+        <li>Faciliter l&apos;accès et l&apos;orientation des usagers,</li>
         <li>
-          Optimiser les conditions d'accueil et la prise en charge des usagers
+          Optimiser les conditions d&apos;accueil et la prise en charge des usagers
         </li>
         <li>Renforcer la communication avec les usagers</li>
         <li>
-          Mettre en place des dispositifs d'écoute active pour garantir leur
+          Mettre en place des dispositifs d&apos;écoute active pour garantir leur
           satisfaction
         </li>
       </ul>
@@ -54,12 +54,12 @@ const SystemeDocumentairePage = () => {
         matériels indispensables.
       </p>
       <p className="mb-2">
-        Cette démarche s'inscrit dans notre volonté continue d'améliorer la
-        qualité de l'accueil et de répondre aux exigences les plus élevées, dans
+        Cette démarche s&apos;inscrit dans notre volonté continue d&apos;améliorer la
+        qualité de l&apos;accueil et de répondre aux exigences les plus élevées, dans
         le respect des attentes des usagers.
       </p>
       <h4 className="text-xl font-medium my-4">
-        Champ d'application du système qualité « MARHBA »
+        Champ d&apos;application du système qualité « MARHBA »
       </h4>
       <p className="mb-2">
         Le système qualité MARHBA couvre la relation client au sein des recettes
@@ -75,7 +75,7 @@ const SystemeDocumentairePage = () => {
         <li>Système de management</li>
       </ol>
       <p className="mb-2">
-        L'obtention de ce label atteste de la mise en place d'un système de
+        L&apos;obtention de ce label atteste de la mise en place d&apos;un système de
         management de la qualité solide, garantissant la satisfaction client et
         la conformité aux normes en vigueur.
       </p>
@@ -89,43 +89,43 @@ const SystemeDocumentairePage = () => {
           Direction Générale de la Comptabilité Publique et du Recouvrement
           (DGCPR)
         </b>{" "}
-        s'est engagée dans un processus de modernisation de ses outils de
+        s&apos;est engagée dans un processus de modernisation de ses outils de
         travail.
       </p>
       <p className="mb-2">
-        La mise en place de ce nouveau système s'inscrit pleinement dans la
-        volonté d'améliorer continuellement la qualité des services rendus aux
+        La mise en place de ce nouveau système s&apos;inscrit pleinement dans la
+        volonté d&apos;améliorer continuellement la qualité des services rendus aux
         usagers. En optimisant les processus internes, nous souhaitons faciliter
         leurs démarches et répondre au mieux à leurs attentes.
       </p>
       <h4 className="text-xl font-medium my-4">
-        1.Faciliter l'accès et l'orientation des usagers
+        1.Faciliter l&apos;accès et l&apos;orientation des usagers
       </h4>
       <ul className="pl-14 list-disc mb-2">
         <li>
           Simplifier les démarches administratives et les rendre plus intuitives
         </li>
-        <li>Mettre en place un système d'accueil personnalisé et efficace</li>
-        <li>Développer des outils d'orientation clairs et accessibles</li>
+        <li>Mettre en place un système d&apos;accueil personnalisé et efficace</li>
+        <li>Développer des outils d&apos;orientation clairs et accessibles</li>
         <li>
-          Proposer des horaires d'ouverture élargis et des créneaux dédiés.
+          Proposer des horaires d&apos;ouverture élargis et des créneaux dédiés.
         </li>
       </ul>
       <h4 className="text-xl font-medium my-4">
-        2.Optimiser les conditions d'accueil et la prise en charge des usagers
+        2.Optimiser les conditions d&apos;accueil et la prise en charge des usagers
       </h4>
       <ul className="pl-14 list-disc mb-2">
-        <li>Former le personnel à l'accueil et à l'écoute active.</li>
+        <li>Former le personnel à l&apos;accueil et à l&apos;écoute active.</li>
         <li>
-          Aménager des espaces d'accueil confortables et adaptés aux besoins des
+          Aménager des espaces d&apos;accueil confortables et adaptés aux besoins des
           usagers.
         </li>
         <li>
-          Réduire les délais d'attente et garantir une prise en charge rapide
+          Réduire les délais d&apos;attente et garantir une prise en charge rapide
           des demandes.
         </li>
         <li>
-          Personnaliser l'accompagnement des usagers en fonction de leurs
+          Personnaliser l&apos;accompagnement des usagers en fonction de leurs
           besoins spécifiques.
         </li>
       </ul>
@@ -139,10 +139,10 @@ const SystemeDocumentairePage = () => {
           proposés.{" "}
         </li>
         <li>Envoyer des enquêtes de satisfaction régulières.</li>
-        <li>Organiser des réunions d'information avec les usagers.</li>
+        <li>Organiser des réunions d&apos;information avec les usagers.</li>
       </ul>
       <h4 className="text-xl font-medium my-4">
-        4.Mettre en place des dispositifs d'écoute active pour garantir leur
+        4.Mettre en place des dispositifs d&apos;écoute active pour garantir leur
         satisfaction
       </h4>
       <ul className="pl-14 list-disc mb-2">
@@ -180,7 +180,7 @@ const SystemeDocumentairePage = () => {
         1.Organisation du système qualité « MARHBA »
       </h4>
       <p className="mb-2">
-        Afin d'assurer le bon fonctionnement du système, une répartition claire
+        Afin d&apos;assurer le bon fonctionnement du système, une répartition claire
         des rôles et des responsabilités a été définie pour chaque acteur
         intégré dans la mise en œuvre des activités relatives à la qualité :
       </p>
@@ -213,7 +213,7 @@ const SystemeDocumentairePage = () => {
 const procedureEtCode = [
   {
     code: "PRD.02",
-    procedure: "Procédure gestion de l'accueil physique"
+    procedure: "Procédure gestion de l&apos;accueil physique"
   },
   {
     code: "PRD.03",
@@ -221,7 +221,7 @@ const procedureEtCode = [
   },
   {
     code: "PRD.04",
-    procedure: "Procédure gestion de l'accueil des personnes à mobilité réduite ou à besoins spécifiques"
+    procedure: "Procédure gestion de l&apos;accueil des personnes à mobilité réduite ou à besoins spécifiques"
   },
   {
     code: "PRD.05",
@@ -229,7 +229,7 @@ const procedureEtCode = [
   },
   {
     code: "PRD.06",
-    procedure: "Procédure gestion du centre d'appel "
+    procedure: "Procédure gestion du centre d&apos;appel "
   },
   {
     code: "PRD.07",

@@ -5,22 +5,22 @@ const CelluleAuditQualitePage = () => {
   return (
     <section className="container">
       <h1 className="text-3xl font-medium text-yellow-700 my-4">
-        Présentation de la cellule d'audit et de la qualité :
+        Présentation de la cellule d&apos;audit et de la qualité :
       </h1>
       <p className="mb-2">
-        La cellule d'Audit et de Qualité (CAQ) est chargée d'assurer la
-        dynamique du système qualité, d'optimiser les processus et d'améliorer
-        la qualité de l'accueil au sein des postes comptables de la DGCPR.
+        La cellule d&apos;Audit et de Qualité (CAQ) est chargée d&apos;assurer la
+        dynamique du système qualité, d&apos;optimiser les processus et d&apos;améliorer
+        la qualité de l&apos;accueil au sein des postes comptables de la DGCPR.
       </p>
       <p className="mb-2">
         À cette fin, elle conçoit, met en œuvre et suit le système qualité.
       </p>
       <p className="mb-2">
         Elle veille au bon déroulement du système à travers des démarches
-        d'audit et des indicateurs de performance.
+        d&apos;audit et des indicateurs de performance.
       </p>
       <p className="mb-2">
-        La cellule d'audit et de qualité travaille en étroite collaboration avec
+        La cellule d&apos;audit et de qualité travaille en étroite collaboration avec
         les correspondants qualité (CQ) au niveau régional pour garantir la
         satisfaction de ces clients au niveau de ces recettes des finances et
         municipales.
