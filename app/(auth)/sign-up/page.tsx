@@ -20,11 +20,6 @@ const SignupPage = () => {
           <h1 className="text-2xl font-bold sm:text-3xl">
             Create your account!
           </h1>
-
-          <p className="mt-4 text-gray-500">
-            Join us today and start your journey. Lorem ipsum dolor sit amet
-            consectetur adipisicing elit.
-          </p>
         </div>
 
         <form

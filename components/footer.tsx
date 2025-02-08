@@ -1,3 +1,4 @@
+import { Facebook, Linkedin, Youtube } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -22,14 +23,10 @@ const Footer = () => {
             <li><Link href="/contact" className="hover:underline">Contacts</Link></li>
           </ul>
         </nav>
-        <nav>
-          <h1 className="text-xl font-medium pr-14">Contact</h1>
-          <ul>
-            <li><Link href="/" className="hover:underline">Facebook</Link></li>
-            <li><Link href="/" className="hover:underline">Twitter</Link></li>
-            <li><Link href="/" className="hover:underline">Instagram</Link></li>
-            <li><Link href="/" className="hover:underline">Youtube</Link></li>
-          </ul>
+        <nav className="flex lg:flex-col items-center justify-center gap-4 p-4">
+            <a href="https://www.facebook.com/profile.php?id=100064851723992&mibextid=wwXIfr&rdid=hJHXj1W66wj6aA7f&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F19qH7VMeSm%2F%3Fmibextid%3DwwXIfr#" target="_blank" className="hover:underline"><Facebook size={30}/></a>
+            <a href="https://www.linkedin.com/in/dgcpr-tunisie-a632541b8/" target="_blank" className="hover:underline"><Linkedin size={30}/></a>
+            <a href="https://www.youtube.com/channel/UC2YgyONf6BIiGKEW1rTbucw" target="_blank" className="hover:underline"><Youtube size={30}/></a>
         </nav>
       </div>
       <hr />

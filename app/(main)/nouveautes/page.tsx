@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 import React from "react";
 
 const NouveautesPage = () => {
@@ -36,9 +35,9 @@ const NouveautesPage = () => {
       </h4>
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-2">
         {support.map((s, i) => (
-          <Link href={s.link} key={i} className="h-[150px] md:h-[250px] overflow-hidden border-2 border-foreground rounded-lg bg-white hover:shadow-lg transition-all">
+          <a href={s.link} target="_blank" key={i} className="h-[150px] md:h-[250px] overflow-hidden border-2 border-foreground rounded-lg bg-white hover:shadow-lg transition-all">
             <Image src={s.image} alt={`image-${i}`} width={450} height={250} className="size-full object-cover mix-blend-multiply" />
-          </Link>
+          </a>
         ))}
       </div>
     </section>
@@ -95,11 +94,11 @@ const sites = [
 const support = [
   {
     image: "/images/s1.jpg",
-    link: "/",
+    link: "https://e-services.innorpi.tn/formation-detail/23",
   },
   {
     image: "/images/s2.jpg",
-    link: "/",
+    link: "https://www.innorpi.tn/fr/label-marhba",
   },
   {
     image: "/images/s3.jpg",
