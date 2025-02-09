@@ -2,10 +2,16 @@ import React from "react";
 import { Menu, Search } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
+import { getServerSession } from "next-auth";
+import { authOptions } from "@/lib/auth-options";
+import SignOutBtn from "./signout-btn";
 
 
-const Header = () => {
+const Header = async () => {
+  const session = await getServerSession(authOptions);
   return (
+    <>
+    {session !== null && <SignOutBtn />}
     <header>
       <div className="flex flex-col lg:flex-row">
         <div className="border-2 border-foreground lg:w-[450px] flex-grow lg:flex-grow-0 grid place-content-center border-b-0 lg:border-b-2">
@@ -78,6 +84,7 @@ const Header = () => {
         </button>
       </nav>
     </header>
+    </>
   );
 };
 

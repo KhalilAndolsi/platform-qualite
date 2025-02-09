@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 
-const NouveautesPage = () => {
+const NouveautesPage = async () => {
   return (
     <section className="container">
       <h1 className="text-3xl font-medium text-yellow-700 my-4">
