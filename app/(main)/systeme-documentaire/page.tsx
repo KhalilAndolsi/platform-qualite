@@ -6,9 +6,6 @@ const SystemeDocumentairePage = () => {
   const [tab, setTab] = useState(1);
   return (
     <section className="container">
-      <h4 className="my-4 text-lg font-medium text-red-800">
-        SMQ (sous onglet)
-      </h4>
       <div className="flex *:flex-1 *:p-4 *:border-foreground *:font-medium">
         <button
           onClick={() => setTab(1)}
@@ -265,6 +262,7 @@ const SystemeDocumentairePage = () => {
     </section>
   );
 };
+
 
 const procedureEtCode = [
   {

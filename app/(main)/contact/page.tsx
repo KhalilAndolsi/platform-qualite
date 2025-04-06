@@ -1,4 +1,5 @@
-import { Mail, MapPin, Phone, SendHorizonal } from "lucide-react";
+import Contactui from "@/components/contact-ui";
+import { Mail, MapPin, Phone } from "lucide-react";
 import React from "react";
 
 const ContactPage = () => {
@@ -15,66 +16,7 @@ const ContactPage = () => {
           </div>
         ))}
       </div>
-      <form className="space-y-4 col-span-full lg:col-span-7">
-      <h1 className="text-3xl font-bold my-4">Laissez votre message ici</h1>
-        <div>
-          <label className="sr-only" htmlFor="name">
-            Name
-          </label>
-          <input
-            className="w-full rounded-lg border-2 border-foreground outline-none p-3 text-sm"
-            placeholder="Name"
-            type="text"
-            id="name"
-          />
-        </div>
-
-        <div className="flex gap-4">
-          <div className="flex-1">
-            <label className="sr-only" htmlFor="email">
-              Email
-            </label>
-            <input
-              className="w-full rounded-lg border-2 border-foreground outline-none p-3 text-sm"
-              placeholder="Email address"
-              type="email"
-              id="email"
-            />
-          </div>
-
-          <div className="flex-1">
-            <label className="sr-only" htmlFor="phone">
-              Phone
-            </label>
-            <input
-              className="w-full rounded-lg border-2 border-foreground outline-none p-3 text-sm"
-              placeholder="Phone Number"
-              type="tel"
-              id="phone"
-            />
-          </div>
-        </div>
-
-        <div>
-          <label className="sr-only" htmlFor="message">
-            Message
-          </label>
-
-          <textarea
-            className="w-full rounded-lg border-2 border-foreground outline-none p-3 text-sm"
-            placeholder="Message"
-            rows={8}
-            id="message"></textarea>
-        </div>
-
-        <div className="mt-4">
-          <button
-            type="submit"
-            className="flex items-center w-full rounded-lg bg-black px-5 py-3 font-medium text-white sm:w-auto">
-            Envoyer <SendHorizonal size={18} />
-          </button>
-        </div>
-      </form>
+      <Contactui />
     </section>
   );
 };
@@ -87,7 +29,7 @@ const constacts = [
     addresse: "36 Rue de Marseille,1002 Tunis",
   },
   {
-    title: "Centre d&apos;appel",
+    title: "Centre d'appel",
     email: "cellule.qualite@finances.gov.tn",
     phone: "71 257 301",
     addresse: "36 Rue de Marseille,1002 Tunis",

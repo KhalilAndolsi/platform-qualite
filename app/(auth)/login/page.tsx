@@ -13,7 +13,6 @@ const loginSchema = z.object({
   email: z.string().email("Please enter a valid email address"),
   password: z.string().min(6, "Password must be at least 6 characters long"),
 });
-
 // Infer the type from the schema
 type LoginFormValues = z.infer<typeof loginSchema>;
 
@@ -35,9 +34,9 @@ const LoginPage = () => {
     setIsLoading(true);
     try {
       await signIn("credentials", {
-        redirect: true,
         email: data.email,
         password: data.password,
+        redirect: true,
         callbackUrl: "/"
       });
     } catch (error) {
@@ -90,7 +89,6 @@ const LoginPage = () => {
               </p>
             )}
           </div>
-
           <div>
             <label htmlFor="password" className="sr-only">
               Password

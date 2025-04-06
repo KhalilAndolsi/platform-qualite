@@ -43,7 +43,8 @@ export default function Home() {
       <h1 className="text-xl lg:text-3xl font-semibold">
         Bienvenue dans le plateforme Qualitée
       </h1>
-      <p className="lg:text-2xl font-light text-blue-600">
+      <div className=""></div>
+      <p className="lg:text-2xl font-light text-blue-600 bg-khalil-200">
         Choisissez l&apos;espace qui vous convient
       </p>
       <div className="flex flex-col lg:flex-row gap-7 my-7">

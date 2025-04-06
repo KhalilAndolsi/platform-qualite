@@ -20,10 +20,10 @@ export const authOptions: AuthOptions = {
           const user = await prisma.user.findUnique({
             where: { email },
           });
-          if (!user) {
-            return null;
-          }
+          if (!user) return null;
+          //
           const passwordIsCorrect = await bcrypt.compare(password, user.password);
+          // commfdsfdsf
           if (!passwordIsCorrect) {
             return null;
           }
@@ -31,6 +31,7 @@ export const authOptions: AuthOptions = {
             id: user.id,
             name: user.name,
             email: user.email,
+            role: user.role,
           };
         } catch (error) {
           console.error(error);
